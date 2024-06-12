@@ -10,7 +10,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 6 * * *' # 6 AM UTC
+    - cron: '0 6 * * 1' # 6 AM UTC every Monday
 
 jobs:
   Build:
